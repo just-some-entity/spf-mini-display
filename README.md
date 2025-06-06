@@ -1,4 +1,4 @@
-# Rusty Spotify TUI
+# SPF Mini Display
 
 A lightweight terminal Spotify player written in Rust,  
 using **ratatui** for rendering and **rspotify** for API requests.
