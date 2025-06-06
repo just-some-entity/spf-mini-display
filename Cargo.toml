@@ -1,0 +1,19 @@
+[package]
+name    = "spf_mini_display"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# General components
+color-eyre = "0.6.5"
+
+# Frontend components
+crossterm  = "0.29.0"
+ratatui    = "0.29.0"
+
+# Backend components
+rspotify = { version = "0.14.0", features = ["cli"]}
+tokio = { version = "1.45.1", features = ["rt", "rt-multi-thread", "macros"] }
+num-traits = "0.2.19"
+toml = "0.8.22"
+serde = { version = "1.0.219", features = ["derive"] }

@@ -1,0 +1,4 @@
+config.toml
+target/
+.spotify_token_cache.json
+.idea
